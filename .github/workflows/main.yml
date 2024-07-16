@@ -1,26 +1,4 @@
-Skip to content
-Navigation Menu
-DrugAddict11
-/
-Automation-Flutter-Testing
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-main
-Update main.yml #16
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/main.yml at 4de36f2
-# .github/workflows/main.yml
+ # .github/workflows/main.yml
 
 # Name of your workflow.
 name: main
@@ -60,4 +38,3 @@ jobs:
           arch: x86_64
           profile: Nexus 6
           script: flutter test integration_test/app_test.dart
-Update main.yml · DrugAddict11/Automation-Flutter-Testing@4de36f2
