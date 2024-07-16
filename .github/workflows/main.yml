@@ -23,7 +23,7 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-      - run: flutter drive \  --driver=integration_test_driver/integration_test_driver.dart \ --target=integration_test/app_test.dart
+      - run: flutter drive --driver=integration_test_driver/integration_test_driver.dart --target=integration_test/app_test.dart
       - run: flutter build apk --debug --split-per-abi
       - run: 
           flutter build ios --no-codesign
